@@ -1,0 +1,14 @@
+$primary-bg: #95103B;
+$main-bg: #eee;
+
+// @import url(../../resources/css/app.css);
+@import 'variables';
+
+// Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// @import '~bootstrap/scss/bootstrap';
+
+
+body {
+    background: $main-bg;
+}
